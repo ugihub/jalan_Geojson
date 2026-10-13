@@ -19,7 +19,7 @@ main.js
 data/jalan.geojson
 .nojekyll
 README.md
-TUTORIAL_MEDIUM.md
+TUTORIAL_MEDIUM2.md
 ```
 
 ## Menjalankan
