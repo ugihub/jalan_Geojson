@@ -1,0 +1,394 @@
+{
+  "type": "FeatureCollection",
+  "name": "Demo jaringan jalan Sarijadi Bandung untuk CrootJS",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Jalan Sarimanah 2",
+        "jenis": "residential",
+        "sumber": "Disadur dari data jalan demo CrootJS (OpenStreetMap contributors)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5749734,
+            -6.8766497
+          ],
+          [
+            107.5752192,
+            -6.8767755
+          ],
+          [
+            107.5752912,
+            -6.8768174
+          ],
+          [
+            107.5757713,
+            -6.8770271
+          ],
+          [
+            107.5762281,
+            -6.8772329
+          ],
+          [
+            107.5766048,
+            -6.8774024
+          ],
+          [
+            107.5768675,
+            -6.8775207
+          ],
+          [
+            107.577563,
+            -6.8778339
+          ],
+          [
+            107.5784713,
+            -6.8782448
+          ],
+          [
+            107.5793283,
+            -6.8786286
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Jalan Penghubung A",
+        "jenis": "living_street",
+        "sumber": "Disadur dari data jalan demo CrootJS (OpenStreetMap contributors)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5756005,
+            -6.8759056
+          ],
+          [
+            107.5761533,
+            -6.8761523
+          ],
+          [
+            107.5766105,
+            -6.8763563
+          ],
+          [
+            107.5770125,
+            -6.8765357
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Jalan Penghubung B",
+        "jenis": "living_street",
+        "sumber": "Disadur dari data jalan demo CrootJS (OpenStreetMap contributors)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5762297,
+            -6.8759803
+          ],
+          [
+            107.5759692,
+            -6.8758637
+          ],
+          [
+            107.5757022,
+            -6.8757465
+          ],
+          [
+            107.5756896,
+            -6.8757443
+          ],
+          [
+            107.5756782,
+            -6.8757474
+          ],
+          [
+            107.575669,
+            -6.8757519
+          ],
+          [
+            107.5756604,
+            -6.8757619
+          ],
+          [
+            107.5756005,
+            -6.8759056
+          ],
+          [
+            107.575475,
+            -6.8761919
+          ],
+          [
+            107.5753509,
+            -6.876475
+          ],
+          [
+            107.5752192,
+            -6.8767755
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Jalan Penghubung C",
+        "jenis": "living_street",
+        "sumber": "Disadur dari data jalan demo CrootJS (OpenStreetMap contributors)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5770125,
+            -6.8765357
+          ],
+          [
+            107.576961,
+            -6.8766452
+          ],
+          [
+            107.5768716,
+            -6.8768353
+          ],
+          [
+            107.5767475,
+            -6.8770991
+          ],
+          [
+            107.5766048,
+            -6.8774024
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Jalan Penghubung D",
+        "jenis": "living_street",
+        "sumber": "Disadur dari data jalan demo CrootJS (OpenStreetMap contributors)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5770125,
+            -6.8765357
+          ],
+          [
+            107.5771463,
+            -6.8762512
+          ],
+          [
+            107.5772729,
+            -6.8759821
+          ],
+          [
+            107.5774,
+            -6.8757118
+          ],
+          [
+            107.5774208,
+            -6.8756677
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Jalan Penghubung E",
+        "jenis": "living_street",
+        "sumber": "Disadur dari data jalan demo CrootJS (OpenStreetMap contributors)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5771463,
+            -6.8762512
+          ],
+          [
+            107.5779061,
+            -6.8765912
+          ],
+          [
+            107.577968,
+            -6.8764553
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Jalan Penghubung F",
+        "jenis": "living_street",
+        "sumber": "Disadur dari data jalan demo CrootJS (OpenStreetMap contributors)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5767475,
+            -6.8770991
+          ],
+          [
+            107.5775055,
+            -6.8774394
+          ],
+          [
+            107.5775706,
+            -6.8772965
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Jalan Penghubung G",
+        "jenis": "living_street",
+        "sumber": "Disadur dari data jalan demo CrootJS (OpenStreetMap contributors)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.575475,
+            -6.8761919
+          ],
+          [
+            107.5760206,
+            -6.8764439
+          ],
+          [
+            107.5764798,
+            -6.8766559
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Jalan Penghubung H",
+        "jenis": "living_street",
+        "sumber": "Disadur dari data jalan demo CrootJS (OpenStreetMap contributors)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5761533,
+            -6.8761523
+          ],
+          [
+            107.5760206,
+            -6.8764439
+          ],
+          [
+            107.5759028,
+            -6.8767194
+          ],
+          [
+            107.5757713,
+            -6.8770271
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Jalan Penghubung I",
+        "jenis": "living_street",
+        "sumber": "Disadur dari data jalan demo CrootJS (OpenStreetMap contributors)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5753509,
+            -6.876475
+          ],
+          [
+            107.5759028,
+            -6.8767194
+          ],
+          [
+            107.5763632,
+            -6.8769232
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Jalan Penghubung J",
+        "jenis": "living_street",
+        "sumber": "Disadur dari data jalan demo CrootJS (OpenStreetMap contributors)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5766105,
+            -6.8763563
+          ],
+          [
+            107.5764798,
+            -6.8766559
+          ],
+          [
+            107.5763632,
+            -6.8769232
+          ],
+          [
+            107.5762281,
+            -6.8772329
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nama": "Jalan Penghubung K",
+        "jenis": "living_street",
+        "sumber": "Disadur dari data jalan demo CrootJS (OpenStreetMap contributors)"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            107.5768716,
+            -6.8768353
+          ],
+          [
+            107.5776264,
+            -6.8771741
+          ],
+          [
+            107.5775706,
+            -6.8772965
+          ]
+        ]
+      }
+    }
+  ]
+}

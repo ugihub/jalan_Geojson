@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Simulasi rute ojek online minimum Rp10.000 menggunakan CrootJS dan jaringan jalan GeoJSON di Bandung.">
+  <title>Rute Jalan GeoJSON | CrootJS</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="main.js"></script>
+</head>
+<body>
+  <div class="layout">
+    <aside class="panel">
+      <div class="brand"><span class="brand-icon">↗</span><span>GeoRoute <small>by CrootJS</small></span></div>
+      <div class="eyebrow">PROYEK SISTEM INFORMASI GEOGRAFIS</div>
+      <h1>Rute Jalan & Estimasi Ongkos</h1>
+      <p class="subtitle">Pilih titik awal dan tujuan di kawasan Sarijadi, Bandung. Perhitungan rute berjalan dari GeoJSON dengan CrootJS.</p>
+      <section class="card">
+        <label for="asal">Titik penjemputan (A)</label>
+        <select id="asal">
+          <option value="pintu">Sarimanah • Utara</option>
+          <option value="simpang">Simpang Sarimanah</option>
+          <option value="tengah">Sarimanah • Tengah</option>
+        </select>
+        <label for="tujuan">Titik tujuan (B)</label>
+        <select id="tujuan">
+          <option value="selatan">Sarimanah • Selatan</option>
+          <option value="tengah">Sarimanah • Tengah</option>
+          <option value="simpang">Simpang Sarimanah</option>
+        </select>
+        <div class="actions"><button id="reset" class="secondary" type="button">Atur ulang</button><button id="download" class="primary" type="button">Unduh rute .geojson</button></div>
+        <p class="hint">Pin A dan B dapat digeser di atas peta. Klik di peta untuk mengganti titik B.</p>
+      </section>
+      <section class="fare-card" aria-live="polite">
+        <span class="fare-label">ESTIMASI ONGKOS (SIMULASI)</span>
+        <output id="harga" class="price">Rp10.000</output>
+        <div class="line"><span>Jarak mengikuti jalan</span><strong id="jarak">Memuat...</strong></div>
+        <div class="line"><span>Jumlah ruas jalan</span><strong id="ruas">12 ruas</strong></div>
+        <div class="line"><span>Tarif minimum</span><strong>Rp10.000</strong></div>
+        <p class="fineprint">Bukan tarif resmi Gojek. Simulasi: Rp10.000 untuk 2 km pertama, lalu tambahan Rp2.500 per km berikutnya (dibulatkan ke atas).</p>
+      </section>
+      <p id="status" class="status" role="status">Memuat jaringan jalan...</p>
+      <p class="credit">Sumber contoh jalan: <a href="https://github.com/crootjs/examples/tree/main/geo/route">demo CrootJS</a>, data OpenStreetMap © kontributor OSM. Peta dasar © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.</p>
+    </aside>
+    <main class="map-wrap" aria-label="Peta interaktif rute jalan">
+      <div class="map-top"><span class="live-dot"></span> PETA INTERAKTIF <span class="tag">CrootJS ONLY</span></div>
+      <div id="peta" class="peta"></div>
+      <div class="map-legend"><span><i class="swatch road"></i> Jaringan jalan</span><span><i class="swatch route"></i> Rute terpendek</span></div>
+    </main>
+  </div>
+</body>
+</html>
